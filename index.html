@@ -27,25 +27,28 @@
     </div>
     <ul class="nav justify-content-center">
         <li class="nav-item border-primary border-bottom m-2">
-            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            <a class="nav-link active" aria-current="page" href="#about">About Me</a>
         </li>
         <li class="nav-item border-primary border-bottom m-2">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item border-primary border-bottom m-2">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
         </li>
     </ul>
-    <div class="container border-start border-primary border-3 mt-5">
-        <p class="lead">I am a 20 year old front-end web developer from Indiana with two years of
-            experience. In
-            2020, I
-            began learning valuable skills with online courses and developer tools. I have
-            completed two web-development courses on Udemy, which started my journey in
-            front-end development. More recently, I have been expanding my portfolio and teaching myself new techniques
-            and skills to use in a professional setting.
-        </p>
-    </div>
+    <section id="about">
+        <div class="container border-start border-primary border-3 mt-5">
+            <p class="lead">I am a 20 year old front-end web developer from Indiana with two years of
+                experience. In
+                2020, I
+                began learning valuable skills with online courses and developer tools. I have
+                completed two web-development courses on Udemy, which started my journey in
+                front-end development. More recently, I have been expanding my portfolio and teaching myself new
+                techniques
+                and skills to use in a professional setting.
+            </p>
+        </div>
+    </section>
     <section id="portfolio">
         <div class="container" id="carouselContainer">
             <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -150,16 +153,16 @@
                     <div class="card-body">
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" name="email" id="email"
+                            <input type="email" class="form-control" name="Email" id="emailInput"
                                 placeholder="name@example.com">
                         </div>
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
-                            <input type="name" class="form-control" name="name" id="name" placeholder="Your Name">
+                            <input type="name" class="form-control" name="Name" id="nameInput" placeholder="Your Name">
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                            <textarea class="form-control" name="Message" id="messageInput" rows="5"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
