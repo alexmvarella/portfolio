@@ -139,32 +139,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="container border-start border-primary border-3 my-4">
-                        <h1 class="h1">Contact Me</h1>
-                    </div>
-                    <form class="row g-2" action="https://formsubmit.co/9f43a2710e3564a4783252a952550d30" method="POST">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="mb-3">
-                                    <label for="formControlInput1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="formControlInput1"
-                                        placeholder="name@example.com">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="formControlInput2" class="form-label">Name</label>
-                                    <input type="name" class="form-control" id="formControlInput2"
-                                        placeholder="Your Name">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="formControlTextarea1" class="form-label">Message</label>
-                                    <textarea class="form-control" id="formControlTextarea1" rows="5"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="container border-start border-primary border-3 my-4">
+                <h1 class="h1">Contact Me</h1>
+            </div>
+            <form class="row g-2" action="https://formsubmit.co/9f43a2710e3564a4783252a952550d30" method="POST">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" name="email" id="email"
+                                placeholder="name@example.com">
                         </div>
-                    </form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="name" class="form-control" name="name" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
                 </div>
+            </form>
+        </div>
     </section>
 
 
